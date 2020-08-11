@@ -1,0 +1,40 @@
+{
+  "name": "create_react_app_w-o_cra",
+  "version": "1.0.0",
+  "description": "boilerplate code to create react app without create-react-app ",
+  "scripts": {
+    "dev": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aceaki/create_react_app_w-o_CRA.git"
+  },
+  "keywords": [
+    "create",
+    "react",
+    "app",
+    "without",
+    "cra"
+  ],
+  "author": "aceaki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aceaki/create_react_app_w-o_CRA/issues"
+  },
+  "homepage": "https://github.com/aceaki/create_react_app_w-o_CRA#readme",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
